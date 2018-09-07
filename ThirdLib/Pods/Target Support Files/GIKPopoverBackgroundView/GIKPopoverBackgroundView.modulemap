@@ -1,0 +1,6 @@
+framework module GIKPopoverBackgroundView {
+  umbrella header "GIKPopoverBackgroundView-umbrella.h"
+
+  export *
+  module * { export * }
+}

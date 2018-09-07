@@ -1,0 +1,97 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ThirdLib' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+   use_frameworks!
+
+# 在获取用户权限方面，以给与用户好的体验
+# pod 'PermissionScope'
+# 干净、轻巧的HUD
+pod 'SVProgressHUD'
+# 添加字体到项目中
+pod 'FontAwesomeKit'
+# 可以擦除的cell
+pod 'MGSwipeTableCell'
+# 内购助手
+pod 'IAPHelper'
+# 颜色框架
+pod 'ChameleonFramework'
+# 日历
+pod 'PDTSimpleCalendar'
+# 自定义UITextField
+# pod 'TextFieldEffects'
+# GPU加速的相机预览效果
+pod 'GPUImage'
+# 让用户去评论APP
+pod 'iRate'
+# 侧滑
+pod 'PKRevealController'
+# 自定义文本输入控件
+pod 'SlackTextViewController'
+# 数据驱动内容管理容器
+pod 'RETableViewManager'
+# 运行时
+pod 'MAObjCRuntime'
+# 解压缩
+pod 'GZIP'
+
+# 数据库
+pod 'FMDB'
+
+# 模型
+pod 'YYModel'
+
+# 调试 https://github.com/pmusolino/Wormholy
+# pod 'Wormholy', :configurations => ['Debug']
+
+#pragma mark -------------- 警告控件 --------------
+
+# https://github.com/pmusolino/PMAlertController
+# pod 'PMAlertController'
+# https://github.com/pmusolino/PMSuperButton
+# pod 'PMSuperButton'
+
+# 弹出框
+pod 'KLCPopup'
+
+# 微软 onedrive中的开源库
+pod 'HTAutocompleteTextField'
+# pod 'CircleProgressView'
+pod 'CocoaLumberjack'
+pod 'DoubleConversion'
+# pod 'ExpandableLabel'
+pod 'FLAnimatedImage'
+pod 'FastImageCache'
+# pod 'FeatureCards'
+# pod 'KeychainAccess'
+pod 'MMDrawerController'
+pod 'MMSegmentSlider'
+pod 'PagingMenuController'
+# pod 'PopupDialog'
+pod 'PureLayout'
+pod 'SDWebImage'
+pod 'SSZipArchive'
+pod 'Shimmer'
+pod 'THPinViewController'
+pod 'XLActionController'
+pod 'YCFirstTime'
+pod 'GIKPopoverBackgroundView'
+pod 'CTAssetsPickerController'
+pod 'CWStatusBarNotification'
+
+# 网络
+pod 'AFNetworking'
+
+
+
+# 渐变动效的文字
+pod 'RQShineLabel'
+# 插入动画
+# pod 'Kitsunebi'
+# Facebook  Paper 背后的动画引擎 Pop
+pod 'pop'
+  # Pods for ThirdLib
+
+end
+

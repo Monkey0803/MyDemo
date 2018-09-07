@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddh-8a-Y4k">
+                                <rect key="frame" x="40" y="308.5" width="295" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Nm8-SL-29N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="27"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" red="1" green="0.30919319839999998" blue="0.3458771799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZlV-3S-7gw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Uy-ev-Yi5">
+                                <rect key="frame" x="40" y="208.5" width="295" height="50"/>
+                                <color key="backgroundColor" red="0.94862227711247227" green="1" blue="0.45195907970244364" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="POP"/>
+                                <connections>
+                                    <action selector="popAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJN-EP-xqq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ddh-8a-Y4k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="76d-ko-e0Y"/>
+                            <constraint firstItem="ddh-8a-Y4k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CWM-a7-Vnu"/>
+                            <constraint firstItem="4Uy-ev-Yi5" firstAttribute="leading" secondItem="ddh-8a-Y4k" secondAttribute="leading" id="Xke-wz-dPC"/>
+                            <constraint firstItem="4Uy-ev-Yi5" firstAttribute="trailing" secondItem="ddh-8a-Y4k" secondAttribute="trailing" id="Y9N-bF-jlb"/>
+                            <constraint firstItem="4Uy-ev-Yi5" firstAttribute="height" secondItem="ddh-8a-Y4k" secondAttribute="height" id="cgF-5a-J7L"/>
+                            <constraint firstItem="ddh-8a-Y4k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="jfs-wL-iCz"/>
+                            <constraint firstItem="ddh-8a-Y4k" firstAttribute="top" secondItem="4Uy-ev-Yi5" secondAttribute="bottom" constant="50" id="mSE-BM-DXg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="popButton" destination="4Uy-ev-Yi5" id="Vci-f6-7Qy"/>
+                        <outlet property="sendB" destination="ddh-8a-Y4k" id="wEh-HS-lzR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

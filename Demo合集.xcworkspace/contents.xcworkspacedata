@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ThirdLib/ThirdLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sort/Sort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Character Demo/Character Demo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SystemSound/SystemSound.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReplaceLogo/ReplaceLogo.xcodeproj">
+   </FileRef>
+</Workspace>
